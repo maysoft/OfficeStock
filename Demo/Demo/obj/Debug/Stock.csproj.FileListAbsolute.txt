@@ -1,0 +1,17 @@
+D:\repos\Stock\Demo\Demo\bin\Debug\Demo.exe.config
+D:\repos\Stock\Demo\Demo\bin\Debug\Demo.exe
+D:\repos\Stock\Demo\Demo\bin\Debug\Demo.pdb
+D:\repos\Stock\Demo\Demo\obj\Debug\Style\Style.baml
+D:\repos\Stock\Demo\Demo\obj\Debug\MainWindow.g.cs
+D:\repos\Stock\Demo\Demo\obj\Debug\App.g.cs
+D:\repos\Stock\Demo\Demo\obj\Debug\Demo_MarkupCompile.cache
+D:\repos\Stock\Demo\Demo\obj\Debug\Demo_MarkupCompile.lref
+D:\repos\Stock\Demo\Demo\obj\Debug\App.baml
+D:\repos\Stock\Demo\Demo\obj\Debug\MainWindow.baml
+D:\repos\Stock\Demo\Demo\obj\Debug\Demo.g.resources
+D:\repos\Stock\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+D:\repos\Stock\Demo\Demo\obj\Debug\Stock.csproj.GenerateResource.cache
+D:\repos\Stock\Demo\Demo\obj\Debug\Stock.csproj.CoreCompileInputs.cache
+D:\repos\Stock\Demo\Demo\obj\Debug\Demo.exe
+D:\repos\Stock\Demo\Demo\obj\Debug\Demo.pdb
+D:\repos\Stock\Demo\Demo\obj\Debug\Stock.csproj.AssemblyReference.cache
