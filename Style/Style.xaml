@@ -18,10 +18,11 @@
         <Setter Property="BorderBrush"  Value="{StaticResource BorderBrush}"/>
         <Setter Property="Background" Value="{StaticResource background}"/>
         <Setter Property="Foreground" Value="{StaticResource TextForeground}"/>
-        <Setter Property="HorizontalContentAlignment" Value="Left" />
-        <Setter Property="Height" Value="30"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Height" Value="25"/>
         <Setter Property="SnapsToDevicePixels" Value="True" />
-        <Setter Property="BorderThickness" Value="0,0,0,3" />
+        <Setter Property="BorderThickness" Value="0,0,1,1" />
         <Setter Property="Margin" Value="-3 0 -3 0"/>
         <Setter Property="Template">
             <Setter.Value>
@@ -42,15 +43,14 @@
         </Setter>
     </Style>
     
-    <Style x:Key="lstview" TargetType="ListView">
-        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
-        <Setter Property="Foreground" Value="{StaticResource foreColor}"/>
+    <Style x:Key="lstview" TargetType="ListView">  
+        <Setter Property="Foreground" Value="{StaticResource TextForeground}"/>
         <Setter Property="BorderThickness" Value="1"/>
-        <Setter Property="BorderBrush" Value="{StaticResource borderColor}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
         <Setter Property="Background" Value="{StaticResource background}"/>
-        <Style.Resources>
+        <!--<Style.Resources>
             <Style TargetType="{x:Type GridViewColumnHeader}" BasedOn="{StaticResource GridColmnHeader}" />
-        </Style.Resources>
+        </Style.Resources>-->
 
     </Style>
 </ResourceDictionary>

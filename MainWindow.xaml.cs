@@ -1,4 +1,7 @@
-﻿using System.Windows;
+﻿using System;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using System.Windows;
 
 namespace Demo
 {
@@ -9,6 +12,7 @@ namespace Demo
     {
         public MainWindow()
         {
+          
             InitializeComponent();
         }
     }

@@ -10,11 +10,11 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
             <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <TextBox Grid.Row="0" Text="测试测试" />
-        <ListView Grid.Row="1" Margin="0 5 0 0" Style="{DynamicResource lstview}" >
+        </Grid.RowDefinitions> 
+        <TextBox Grid.Row="0" Text="测试测试" /> 
+        <ListView Grid.Row="1" Margin="0 5 0 0" Style="{DynamicResource lstview}" BorderThickness="2">
             <ListView.View>
-                <GridView>
+                <GridView ColumnHeaderContainerStyle="{DynamicResource GridColmnHeader}">
                     <GridView.Columns>
                         <GridViewColumn Header="缺陷" Width="60" DisplayMemberBinding="{Binding Code}" />
                         <GridViewColumn Header="代码" Width="80" DisplayMemberBinding="{Binding Name}"/>
